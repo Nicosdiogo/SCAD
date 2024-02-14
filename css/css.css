@@ -1,0 +1,95 @@
+       /* Estilos CSS permanecem os mesmos */
+       body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    .opcoes {
+        list-style: none;
+        padding: 0;
+    }
+
+    .opcao {
+        margin-bottom: 10px;
+    }
+
+    .option label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .option input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    .btn-votar {
+        background-color: #1fc92d;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-votar:hover {
+        background-color: #0d5313;
+    }
+
+    .btn-ver-tabela {
+        background-color: #d3af10;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-ver-tabela:hover {
+        background-color: #66560c;
+    }
+
+    .btn-limpar-dados {
+        background-color: #c51616;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-limpar-dados:hover {
+        background-color: #4b0909e7;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
